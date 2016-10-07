@@ -1,3 +1,4 @@
-import {double} from b.js;
+import {double} from "./b.js";
 
-document.getElmentById("test").innerHTML = double(2);
+// document.getElementById('id')
+document.getElementById("test").innerHTML = double(2);
